@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+sphinx = "*"
+recommonmark = "*"
+
+[packages]
+azure-cli = "*"
+scipy = "*"
+scikit-learn = "*"
+numpy = "*"
+pandas = "*"
+pytest = "*"
+hypothesis = "*"
+
+[requires]
+python_version = "3.7"
