@@ -1,4 +1,6 @@
 # ML_DevOPs
+![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightblue.svg)
+
 🐍🤖 Tutorial on DevOps for Data Science - this uses Azure pipelines for the DevOps implementation
 
 ## Pre requisites
@@ -27,10 +29,10 @@ free and you can now also have private repositories.
 Text editors are tools with powerful features designed to optimize writing code.
 There are several text editors that you can choose from.
 
-Get VS code using 👉🏼 [this link](https://code.visualstudio.com//?wt.mc_id=mldevops-github-taallard). This is your facilitator's favourite 💜 and it is worth trying.
+Get VS code using 👉🏼 [this link](https://code.visualstudio.com//?wt.mc_id=mlops-github-taallard). This is your facilitator's favourite 💜 and it is worth trying.
 
 If you decide to go for VSCode make sure to also
-have the [Python extension](https://marketplace.visualstudio.com/itemdetails?itemName=ms-python.python&wt.mc_id=mldevops-github-taallard)
+have the [Python extension](https://marketplace.visualstudio.com/itemdetails?itemName=ms-python.python&wt.mc_id=mlops-github-taallard)
 installed. This will make your life so much easier (and it comes with a lot of nifty
 features 😎).
 
@@ -47,5 +49,21 @@ features 😎).
 3. Install the requirements:
     ```
     pip install -r requirements
-    pip install azureml-sdk
+    pip install --upgrade azureml-sdk
     ```
+
+## Additional resources
+
+📖 We will be using Azure Pipelines during the workshop so make sure to visit the docs before following the tutorial using 👉🏼[this link](https://docs.microsoft.com/en-gb/azure//?wt.mc_id=mlops-github-taallard) 🚀🚀
+
+Note that we also use the Python Azure Machine learning SDK 👉🏼 [check the docs here](https://docs.microsoft.com/en-us/python/api/overview/azure/ml/intro?view=azure-ml-py/?wt.mc_id=mlops-github-taallard)
+
+
+🚀 PRs and Issues are welcome
+
+### License
+
+[![License: CC BY 4.0](https://licensebuttons.net/l/by/4.0/80x15.png)](https://creativecommons.org/licenses/by/4.0/)
+
+
+This repo is licensed using a CC-BY so you are free to use, remix, and share so long attribution is provided to the original author.
