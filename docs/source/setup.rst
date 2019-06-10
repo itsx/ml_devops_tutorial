@@ -6,7 +6,7 @@ can get quite slow when having too many people downloading and installing things
 time.
 
 Make sure to follow all the steps as detailed here especially :ref:`attendees`
-as there are specific details for an in person workshop setup that needs to be done in advance. 
+as there are specific details for an in-person workshop setup that needs to be done in advance. 
 
 Python 3.x
 ++++++++++
@@ -42,11 +42,11 @@ operating system: https://git-scm.com/downloads.
 Windows
 --------
 
-Download the  `git for Windows installer <https://gitforwindows.org/>`_ . 
+Download the  `git for Windows installer <https://gitforwindows.org/>`_. 
 Make sure to select "use Git from the Windows command prompt" 
 this will ensure that Git is permanently added to your PATH. 
 
-Also select "Checkout Windows-style, commit Unix-style line endings" selected and click on "Next".
+Also, select "Checkout Windows-style, commit Unix-style line endings" selected and click on "Next".
 
 This will provide you both git and git bash. We will use the command line quite a lot during the workshop 
 so using git bash is a good option.
@@ -63,7 +63,7 @@ Text Editors/IDEs
 
 Text editors are tools with powerful features designed to optimize writing code.
 There are several text editors that you can choose from.
-For this workshop we really encourage the use of VSCode as you can also get the Azure ML extenstion
+For this workshop, we really encourage the use of VSCode as you can also get the Azure ML extension
 
 - `VS code <https://code.visualstudio.com//?wt.mc_id=mlops-github-taallard>`_: this is your facilitator's favourite 💜 and it is worth trying if you have not checked it yet
 
@@ -79,7 +79,7 @@ To install the extensions:
 
 3. Click on the **install** button.
 
-4. You will be asked if you want to launcg VSCode, accept and click install in the extension tab.
+4. You will be asked if you want to launch VSCode, accept and click install in the extension tab.
 
 
 Repeat steps 1-4 for the `Azure machine learning for visual studio <https://marketplace.visualstudio.com/items?itemName=ms-toolsai.vscode-ai&wt.mc_id=mlops-github-taallard>`_ extension
@@ -102,13 +102,13 @@ can get started getting things up and follow the materials.
 Creating a virtual environment
 +++++++++++++++++++++++++++++++
 
-You will need to create a virtual environment to make sure that you have the right packages and setup needed to follow along the tutorial.
+You will need to create a virtual environment to make sure that you have the right packages and setup needed to follow along with the tutorial.
 Follow the instructions that best suit your installation.
 
 Anaconda
 --------
 
-If you are using Anaconda first you will need to make a directory for the tutorial, for example ``mkdir mlops-tutorial``.
+If you are using Anaconda first you will need to make a directory for the tutorial, for example, ``mkdir mlops-tutorial``.
 Once created make sure to change into it using ``cd mlops-tutorial``.
 
 Next, make a copy of this `requirements.txt <https://raw.githubusercontent.com/trallard/ml_devops_tutorial/master/setup/requirements.txt>`_ and install the 
@@ -168,7 +168,7 @@ To leave the virtual environment run ``deactivate``
 
 Azure Pass account
 ~~~~~~~~~~~~~~~~~~~~
-As an in person workshop attendee, you will be issued with an Azure pass worth 200 dollars with a 90 days validity.
+Like an in-person workshop attendee, you will be issued with an Azure pass worth 200 dollars with a 90 days validity.
 You will not need to add credit card details to activate but you will need to follow this process to redeem your credits.
 
 1. Send an email your facilitator at trallard@bitsandchips.me with the subject line ``PyConCZ - Azure pass``, they will send you an email with a `unique` code to redeem. Please do not share with anyone, 
