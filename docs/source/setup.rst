@@ -6,7 +6,7 @@ can get quite slow when having too many people downloading and installing things
 time.
 
 Make sure to follow all the steps as detailed here especially :ref:`attendees`
-as there are specific details for the PyCon setup that needs to be done in advance. 
+as there are specific details for an in person workshop setup that needs to be done in advance. 
 
 Python 3.x
 ++++++++++
@@ -63,22 +63,30 @@ Text Editors/IDEs
 
 Text editors are tools with powerful features designed to optimize writing code.
 There are several text editors that you can choose from.
-Here are some we recommend:
+For this workshop we really encourage the use of VSCode as you can also get the Azure ML extenstion
 
-- `VS code <https://code.visualstudio.com//?wt.mc_id=PyCon-github-taallard>`_: this is your facilitator's favourite 💜 and it is worth trying if you have not checked it yet
-- `Pycharm <https://www.jetbrains.com/pycharm/download/>`_
-- `Atom <https://atom.io>`_
+- `VS code <https://code.visualstudio.com//?wt.mc_id=mlops-github-taallard>`_: this is your facilitator's favourite 💜 and it is worth trying if you have not checked it yet
 
-We suggest trying several editors before settling on one.
-
-If you decide to go for VSCode make sure to also
-have the `Python extension <https://marketplace.visualstudio.com/itemdetails?itemName=ms-python.python&wt.mc_id=PyCon-github-taallard>`_
-installed. This will make your life so much easier (and it comes with a lot of nifty
+Make sure to also install the `Python extension <https://marketplace.visualstudio.com/itemdetails?itemName=ms-python.python&wt.mc_id=mlops-github-taallard>`_
+following the instructions below. This will make your life so much easier (and it comes with a lot of nifty
 features 😎).
+
+To install the extensions:
+
+1. Launch VS Code 
+
+2. In a browser visit `Python extension <https://marketplace.visualstudio.com/itemdetails?itemName=ms-python.python&wt.mc_id=mlops-github-taallard>`_.
+
+3. Click on the **install** button.
+
+4. You will be asked if you want to launcg VSCode, accept and click install in the extension tab.
+
+
+Repeat steps 1-4 for the `Azure machine learning for visual studio <https://marketplace.visualstudio.com/items?itemName=ms-toolsai.vscode-ai&wt.mc_id=mlops-github-taallard>`_ extension
 
 
 Microsoft Azure
-+++++
+++++++++++++++++
 
 You will need to get an Azure account as we will be using this to deploy the 
 Airflow instance.
@@ -100,19 +108,18 @@ Follow the instructions that best suit your installation.
 Anaconda
 --------
 
-If you are using Anaconda first you will need to make a directory for the tutorial, for example ``mkdir airflow-tutorial``.
-Once created make sure to change into it using ``cd airflow-tutorial``.
+If you are using Anaconda first you will need to make a directory for the tutorial, for example ``mkdir mlops-tutorial``.
+Once created make sure to change into it using ``cd mlops-tutorial``.
 
-Next, make a copy of this `environment.yaml <https://raw.githubusercontent.com/trallard/airflow-tutorial/master/environment.yaml>`_
- and install the 
-dependencies via ``conda env create -f environment.yml``.
+Next, make a copy of this `requirements.txt <https://raw.githubusercontent.com/trallard/ml_devops_tutorial/master/setup/requirements.txt>`_ and install the 
+dependencies via ``conda create --name mlops --file requirements.txt``.
 Once all the dependencies are installed you can activate your environment through the following commands 
 ::
-    source activate airflow-env # Mac
-    activate airflow-env        # Windows and Linux
+    source activate mlops # Mac
+    activate mlops        # Windows and Linux
 To exit the environment you can use 
 ::
-    deactivate airflow-env    
+    deactivate mlops    
 
 
 pipenv
@@ -120,11 +127,11 @@ pipenv
 
 Create a directory for the tutorial, for example:
 ::
-    mkdir airflow-tutorial 
+    mkdir mlops-tutorial 
 
-and change your working directory to this newly created one ``cd airflow-tutorial``.
+and change your working directory to this newly created one ``cd mlops-tutorial``.
 
-Once then make a copy of this `Pipfile <https://raw.githubusercontent.com/trallard/airflow-tutorial/master/Pipfile>`_ 
+Once then make a copy of this `requirements.txt <https://raw.githubusercontent.com/trallard/ml_devops_tutorial/master/setup/requirements.txt>`_ 
 in your new directory and install via ``pipenv install``.
 This will install the dependencies you need. This might take a while so you can make yourself a brew in the meantime.
 
@@ -134,20 +141,20 @@ virtualenv
 -----------
 Create a directory for the tutorial, for example :
 ::
-    mkdir airflow-tutorial 
-and change directories into it (``cd airflow-tutorial``).
+    mkdir mlops-tutorial 
+and change directories into it (``cd mlops-tutorial``).
 Now you  need to run venv 
 ::
-    python3 -m venv env/airflow # Mac and Linux 
-    python -m venv env/airflow  # Windows
+    python3 -m venv env/mlops  # Mac and Linux 
+    python -m venv env/mlops   # Windows
 
-this will create a virtual Python environment in the ``env/airflow`` folder.
+this will create a virtual Python environment in the ``env/mlops`` folder.
 Before installing the required packages you need to activate your virtual environment: 
 ::
     source env/bin/activate # Mac and Linux 
     .\env\Scripts\activate  # Windows 
 
-Make a copy of `this requirements file <https://raw.githubusercontent.com/trallard/airflow-tutorial/master/requirements.txt>`_ 
+Make a copy of `this requirements file <https://raw.githubusercontent.com/trallard/ml_devops_tutorial/master/setup/requirements.txt>`_ 
 in your new directory.
 Now you can install the packages using via pip ``pip install -r requirements.txt``
 
@@ -174,20 +181,23 @@ We recommend doing this in a private/incognito window. You can then click start 
 
 If you see the following error (see image)
 
-.. image:: _static/mssignin.png
+.. image:: https://github.com/trallard/airflow-tutorial/blob/master/source/_static/mssignin.png?raw=true
+    :alt: missing account
 
 you can go to `this site <https://signup.live.com//?wt.mc_id=mlops-github-taallard>`_  to register the email and proceed.
 
 4. Confirm your email address. You will then be asked to add the promo code that you were sent by your instructor.
 Do not close or refresh the window until you have received a confirmation that this has been successful. 
 
-.. image:: _static/4.jpg
+.. image:: https://github.com/trallard/airflow-tutorial/blob/master/source/_static/4.jpg?raw=true
+    :alt: Azure pass account
 
 5. Activate your subscription: click on the activate button and fill in the personal details
 
 Again once completed, do not refresh the window until you see this image
 
-.. image:: _static/12.png
+.. image:: https://github.com/trallard/airflow-tutorial/blob/master/source/_static/12.png?raw=true
+    :alt: Welcome!
 
 At this point, your subscription will be ready, click on Get started to go to your Azure portal
 
