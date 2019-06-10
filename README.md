@@ -3,6 +3,11 @@
 
 🐍🤖 Tutorial on DevOps for Data Science - this uses Azure pipelines for the DevOps implementation
 
+### 🚀 Detailed set up instructions
+The detailed set up instructions including how to create your virtual environment and to get an Azure account can be found at 👉🏼 [https://ml-devops-tutorial.readthedocs.io/en/latest/setup.html](https://ml-devops-tutorial.readthedocs.io/en/latest/setup.html).
+
+---
+
 ## Pre requisites
 
 ### Python 3.x
@@ -37,6 +42,9 @@ installed. This will make your life so much easier (and it comes with a lot of n
 features 😎).
 
 ## Setup
+
+
+### Basic setup
 
 1. Clone this repository. From a terminal:
    ```
