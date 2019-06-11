@@ -111,8 +111,8 @@ Anaconda
 If you are using Anaconda first you will need to make a directory for the tutorial, for example, ``mkdir mlops-tutorial``.
 Once created make sure to change into it using ``cd mlops-tutorial``.
 
-Next, make a copy of this `requirements.txt <https://raw.githubusercontent.com/trallard/ml_devops_tutorial/master/setup/requirements.txt>`_ and install the 
-dependencies via ``conda create --name mlops --file requirements.txt``.
+Next, make a copy of this `environment.yml <https://raw.githubusercontent.com/trallard/ml_devops_tutorial/master/setup/environment.yml>`_ and install the 
+dependencies via ``conda env create -f environment.yml``.
 Once all the dependencies are installed you can activate your environment through the following commands 
 ::
     source activate mlops # Mac
