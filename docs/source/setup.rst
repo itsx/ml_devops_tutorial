@@ -117,6 +117,12 @@ Once all the dependencies are installed you can activate your environment throug
 ::
     source activate mlops # Mac
     activate mlops        # Windows and Linux
+
+Once activated install the last dependency 
+::
+    pip install --upgrade 'azureml-sdk[explain]'
+
+
 To exit the environment you can use 
 ::
     deactivate mlops    
@@ -135,7 +141,12 @@ Once then make a copy of this `requirements.txt <https://raw.githubusercontent.c
 in your new directory and install via ``pipenv install``.
 This will install the dependencies you need. This might take a while so you can make yourself a brew in the meantime.
 
-Once all the dependencies are installed you can run ``pipenv shell`` which will start a session with the correct virtual environment activated. To exit the shell session using ``exit``.
+Once all the dependencies are installed you can run ``pipenv shell`` which will start a session with the correct virtual environment activated. 
+Then run 
+::
+    pip install --upgrade 'azureml-sdk[explain]'    
+
+To exit the shell session using ``exit``.
 
 virtualenv
 -----------
@@ -156,7 +167,7 @@ Before installing the required packages you need to activate your virtual enviro
 
 Make a copy of `this requirements file <https://raw.githubusercontent.com/trallard/ml_devops_tutorial/master/setup/requirements.txt>`_ 
 in your new directory.
-Now you can install the packages using via pip ``pip install -r requirements.txt``
+Now you can install the packages using via pip ``pip install -r requirements.txt`` followed by ``pip install --upgrade 'azureml-sdk[explain]'``
 
 To leave the virtual environment run ``deactivate``
 
