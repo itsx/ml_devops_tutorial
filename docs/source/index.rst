@@ -12,6 +12,7 @@ Welcome to MLOps Python tutorial!
    :maxdepth: 2
 
    setup
+   glossary
 
 .. toctree::
    :maxdepth: 2
