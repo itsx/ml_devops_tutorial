@@ -106,3 +106,4 @@ venv.bak/
 \.vscode/
 
 docs/source/_build/*
+docs/source/_static/\.DS_Store

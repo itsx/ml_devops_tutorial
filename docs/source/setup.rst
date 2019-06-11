@@ -120,7 +120,7 @@ Once all the dependencies are installed you can activate your environment throug
 
 Once activated install the last dependency 
 ::
-    pip install --upgrade 'azureml-sdk[explain]'
+    pip install --upgrade 'azureml-sdk[explain,contrib]'
 
 
 To exit the environment you can use 
@@ -144,7 +144,7 @@ This will install the dependencies you need. This might take a while so you can 
 Once all the dependencies are installed you can run ``pipenv shell`` which will start a session with the correct virtual environment activated. 
 Then run 
 ::
-    pip install --upgrade 'azureml-sdk[explain]'    
+    pip install --upgrade 'azureml-sdk[explain,contrib]'    
 
 To exit the shell session using ``exit``.
 
@@ -167,7 +167,7 @@ Before installing the required packages you need to activate your virtual enviro
 
 Make a copy of `this requirements file <https://raw.githubusercontent.com/trallard/ml_devops_tutorial/master/setup/requirements.txt>`_ 
 in your new directory.
-Now you can install the packages using via pip ``pip install -r requirements.txt`` followed by ``pip install --upgrade 'azureml-sdk[explain]'``
+Now you can install the packages using via pip ``pip install -r requirements.txt`` followed by ``pip install --upgrade 'azureml-sdk[explain,contrib]'``
 
 To leave the virtual environment run ``deactivate``
 
