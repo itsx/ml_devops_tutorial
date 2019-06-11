@@ -7,3 +7,4 @@ hypothesis==4.24.0
 pandas==0.24.2
 jupyterlab
 sklearn-pandas
+ipywidgets
