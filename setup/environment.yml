@@ -13,3 +13,4 @@ dependencies:
     - hypothesis==4.24.0
     - sklearn-pandas
     - azure-cli==2.0.65
+    

@@ -1,4 +1,4 @@
-# ML_DevOPs
+# Machine Learning DevOps
 ![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightblue.svg)
 
 🐍🤖 Tutorial on DevOps for Data Science - this uses Azure pipelines for the DevOps implementation
