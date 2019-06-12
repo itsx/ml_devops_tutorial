@@ -28,6 +28,13 @@ This enables core features such as authentication of the user/application during
 
 RBAC:
 """""""
-Role Based Access Control (RBAC) is how you manage access to Azure resources.
-🔎 Learn more `here <https://docs.microsoft.com/azure/role-based-access-control/role-assignments-portal?WT.mc_id=mlops-github-taallard>`_.
+Role Based Access Control (RBAC) is how you manage access to Azure resources. Basically it is how permissions are assigned to 
+a specific resource.
+
+They consist of a security principal, role definition, and scope.
+
+.. image:: https://docs.microsoft.com/en-us/azure/role-based-access-control/media/overview/rbac-overview.png
+
+
+🔎 Learn more `here <https://docs.microsoft.com/azure/role-based-access-control/overview?WT.mc_id=mlops-github-taallard>`_.
 
