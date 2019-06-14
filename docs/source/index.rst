@@ -12,6 +12,9 @@ Welcome to MLOps Python tutorial!
    :maxdepth: 2
 
    setup
+   gettingready
+   interpretable
+   devops
    glossary
 
 .. toctree::

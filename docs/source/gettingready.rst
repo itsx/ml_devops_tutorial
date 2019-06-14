@@ -116,7 +116,7 @@ Also they should be treated with loads of care as they give access to your accou
 
 
 Storing Secrets
-===================
+------------------
 
 This has to be done on Azure DevOps once you have created your project, the service principal and the role assignment.
 
@@ -141,7 +141,7 @@ These will be readily accesible across multiple pipelines.
 
 
 Jupyter setup
-=================
+------------------
 
 You need to enable the widgets for the explainable ML package.
 Make sure to have your environment activated and from the command line:

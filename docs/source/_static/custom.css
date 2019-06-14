@@ -9,19 +9,22 @@ a:hover {
 }
 
 div.body h1 {
-    color: #5F6366;
+    /* color: #5F6366; */
+    color: rgb(126, 113, 172);
     font-family: 'Nunito' sans-serif;
     font-weight: bold;
     font-size: 300%;
 }
 
 div.body h2 {
-    color: #5F6366;
+    /* color: #5F6366; */
+    color: rgb(126, 113, 172);
     font-family: 'Nunito' sans-serif;
     font-weight: bold;
 }
 div.body h3 {
-    color: #5F6366;
+    /* color: #5F6366; */
+    color: rgb(126, 113, 172);
     font-family: 'Nunito' sans-serif;
     font-weight: bold;
 }
@@ -35,12 +38,13 @@ div.sphinxsidebar p.blurb {
     font-size: 130%;
     text-align: center;
     font-family: 'Nunito' sans-serif;
-    color: rgb(151, 139, 196);
+    color: rgb(126, 113, 172);
 }
 
 div.sphinxsidebar h1{
     font-size: 160%;
     color: #5F6366;
+    font-weight: 600;
     font-family: 'Nunito' sans-serif;
 }
 
@@ -65,12 +69,12 @@ div.sphinxsidebar a {
 }
 
 code.descname {
-    color: rgb(151, 139, 196);
+    color: rgb(126, 113, 172);
 }
 
 th.field-name {
     min-width: 100px;
-    color: rgb(151, 139, 196);
+    color: rgb(126, 113, 172);
 }
 
 tt, code {
@@ -162,11 +166,11 @@ p.caption {
         color: #1bc5e0;
     }
     div.sphinxsidebar a {
-        /* color: rgb(151, 139, 196); */
+        /* color: rgb(126, 113, 172); */
         color: white;
     }
     div.sphinxsidebar ul {
-        /* color: rgb(151, 139, 196); */
+        /* color: rgb(126, 113, 172); */
         color: white;
     }
 }
