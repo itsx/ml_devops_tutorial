@@ -10,3 +10,4 @@ sklearn-pandas
 ipywidgets
 flask
 dill
+requests

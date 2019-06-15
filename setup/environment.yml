@@ -16,4 +16,5 @@ dependencies:
     - azure-cli==2.0.65
     - flask
     - dill 
+    - requests
     
